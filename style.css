@@ -25,5 +25,7 @@ footer {
 }
 hr {    
     height: 1px;
+    border-width: 0;
+    color: rgb(236, 171, 51);
     background-color: rgb(236, 171, 51);
 }
