@@ -31,3 +31,7 @@ main{
     width: 360px;
     image-orientation: flip;
 }
+footer{
+    text-align: center;
+    padding: 500px;
+}

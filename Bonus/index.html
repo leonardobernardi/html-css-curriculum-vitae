@@ -22,20 +22,24 @@
         <section>
             <form>
                <div>
-                   <label class="orange" for="nome">Nome e cognome</label>
+                   <label class="orange" for="nome">Nome e cognome*</label>
                    <input id="nome" type="text" required >
                 </div>
                 <div>
-                    <label class="orange" for="email">E-mail</label>
+                    <label class="orange" for="email">E-mail*</label>
                     <input id="email" type="email" required>
                 </div>
                 <div>
-                    <label class="orange" for="telefono">Numero di cellulare</label>
+                    <label class="orange" for="telefono">Numero di cellulare*</label>
                     <input id="telefono" type="number" required>
                 </div>
                 <div>
-                    <label class="orange" for="ora">Indica la tua ora di arrivo</label>
+                    <label class="orange" for="ora">Indica la tua ora di arrivo*</label>
                     <input id="telefono" type="time" required>
+                </div>
+                <div>
+                    <label class="orange" for="amici">Quanti amici porti?*</label>
+                    <input id="amici" type="number" required>
                 </div>
                 <div>
                     <label class="orange" for="scelta">Come sei venuto a conoscenza di quest'evento?</label>
@@ -47,10 +51,19 @@
                         <option value="opt5">Altro</option>
                     </select>
                 </div>
+                <div>
+                    <p class="orange">Che costume indossi?</p>
+                    <textarea id="costume" name="Costume" rows="10" cols="50"></textarea>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
             </form>
         </section>
 
     </main>
-    
+    <footer>
+        <p>I campi contrassegnati con * sono obbligatori</p>
+    </footer>
 </body>
 </html>
