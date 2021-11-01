@@ -23,14 +23,7 @@ main{
     left: auto;
     top: auto;
 }
-#ragnatela{
-    position: static;
-    right: 0ch;
-    top: 0ch;
-    height: 360px;
-    width: 360px;
-    image-orientation: flip;
-}
+
 footer{
     text-align: center;
     padding: 500px;
