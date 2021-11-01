@@ -1,0 +1,33 @@
+body {
+    background-image: url(https://www.icegif.com/wp-content/uploads/halloween-icegif-7.gif);
+    background-repeat: no-repeat;
+    background-color: #9acc52;
+    background-position: center;
+    background-attachment: fixed;    
+}
+.orange{
+    font-family: fantasy;
+    color: orange;
+    border: black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#zucca{
+    height: auto;
+    width: 360px;
+    position: fixed;
+    bottom: 0;
+    right: 0ch;
+}
+main{
+    position: absolute;
+    left: auto;
+    top: auto;
+}
+#ragnatela{
+    position: static;
+    right: 0ch;
+    top: 0ch;
+    height: 360px;
+    width: 360px;
+    image-orientation: flip;
+}
